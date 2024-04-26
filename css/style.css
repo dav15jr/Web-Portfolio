@@ -139,7 +139,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 130px;
 }
 
 .nav {
@@ -385,6 +385,7 @@ header {
 }
 
 .portfolio__img {
+    height:100%;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
