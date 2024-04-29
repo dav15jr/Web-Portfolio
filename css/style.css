@@ -453,14 +453,19 @@ header {
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
-    max-width: 1000px;
+    width: fit-content;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-item-individual p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+.portfolio-item-individual a {
+    align-self: center;
 }
 
 
