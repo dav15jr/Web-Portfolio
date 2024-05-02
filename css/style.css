@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #8907ca;
+    --clr-accent: #8907ca;  /* Theme color*/
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -368,7 +368,6 @@ header {
     }
 }
 /* My Work */
-
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -382,6 +381,8 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 
 .portfolio__img {
@@ -397,15 +398,37 @@ header {
     outline: 7px solid var(--clr-accent);
     outline-offset: 0px;
 }
+.portfolio__item:hover{
+    position: relative;
+    text-align: center;
+}
 
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+/* .portfolio__img:hover,
+.portfolio__item:focus .portfolio__img{
     transform: scale(1.2);
     opacity: .65;
-}     
+}    */
 
+  .portfolio__item:hover .overlay {
+    height: 100%;
+    visibility: visible;
+    opacity: 0.95;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7c00c4;
+    overflow: hidden;
+    width: 100%;
+    height: 10%;  /*starting neight*/
+    transition: .7s ease;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
 /* footer */
-
 .footer {
     background: #ffffff;
     color: var(--clr-accent);
