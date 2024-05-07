@@ -330,7 +330,6 @@ header {
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
-    
 }
 
 .about-me__img {
@@ -345,8 +344,8 @@ header {
             "subtitle img"
             "text img";
         grid-column-gap: 2em;
-    }
-    
+    }   
+
     .section__title--about {
         grid-area: title;
     }
@@ -433,7 +432,6 @@ header {
     opacity: 0.90;                
 }
 
-  
 /* footer */
 .footer {
     background: #ffffff;
@@ -485,16 +483,28 @@ header {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.portfolio-item-individual p {
+.portfolio-item-individual p,
+.portfolio-item-individual img {
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0;
+    margin: 5px auto;
+    transition: .7s ease;
 }
 .portfolio-item-individual a {
     align-self: center;
 }
+.zoom_img:hover {
+    align-self: center;
+    transition: .7s ease;
+    transform: scale(1.5);
+    border:1px solid;
+    border-color: #cb05f3;
+    opacity: .9;
+}
+
 
 
 
