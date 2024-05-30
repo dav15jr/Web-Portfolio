@@ -6,8 +6,9 @@
         <title>Davis Jr Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
-        <!-- Update these with your own fonts -->
+        <!-- To Update fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="css/style.css">
@@ -26,7 +27,7 @@
                     <li class="nav__item"><a href="#home" class="open__link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="open__link">About me</a></li>
                     <li class="nav__item"><a href="#services" class="open__link">What I do</a></li>
-                    <li class="nav__item"><a href="#work" class="open__link">My Work</a></li>
+                    <li class="nav__item"><a href="#work" class="open__link">Projects</a></li>
                 </ul>
             </nav>
             <nav class="nav">
@@ -34,7 +35,7 @@
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                 </ul>
             </nav>
         </header>
@@ -43,15 +44,28 @@
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Davis Jr</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
             <img src="img/davis-01.jpg" alt="a picture of Davis Junior smiling" class="intro__img">
         </section>
+            <div class="skill-icons">
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-typescript-plain colored"></i>
+                <i class="devicon-nextjs-plain colored"></i>
+                <!-- <i class="devicon-github-original-wordmark colored"></i>
+                <i class="devicon-vscode-plain colored"></i>
+                <i class="devicon-netlify-plain colored"></i>
+                <i class="devicon-firebase-plain colored"></i> -->
+            </div>
 <!---------------- About me ---------------->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">About Me</h2>
             <p class="section__subtitle section__subtitle--about"> Not just another Jr developer</p>
             <div class="about-me__body">
-                <p>I am keen to begin my career as a front-end developer as I am passionate about building useful tools and solving challenging problems, which has been a consistent theme throughout my career.</p>
+                <p>Hi I am Davis, a versatile engineer keen to begin my career as a front-end developer. I am passionate about building useful tools and solving challenging problems. My goal is to eventually be a full stack developer, as one off my most fulfilling projects was when I designed, built and programmed an autonomous robot at university.</p>
+                <p>From a young age, I have been captivated by the world of technology and how things work. This fascination led me to build a Remote Control car from scraps from my old toys at the young age of 10 years old. Motivating me to pursue a Master's degree in Electrical and Electronic Engineering.</p>
                 <p>I posses a wide range of skills from problem solving, critical thinking, excellent communication and team-working skills. With a growth mindset and enthusiasm for learning, enabling me to adapt quickly and be a valuable asset in any organization.
                 </p>
 
@@ -100,146 +114,52 @@
                     </div>
                 </div> <!-- / service -->
             </div> <!-- / services -->  
-            <a href="#work" class="btn">My Work</a>
+            <a href="https://1drv.ms/b/c/833475fc88c96610/ER4fS_OowxZHr4rNu6U1urQBpZmw5X22Vat_3K7bHrnmMw?e=hoVy3M" class="btn" target="_blank">Check Out CV</a>
         </section>
         
-    <!---------- My Work -------------->
+<!---------------------- My Work --------------------------->
     <section class="my-work" id="work">
-        <h2 class="section__title">Projects</h2>
-        <p class="section__subtitle">A selection of my range of work</p>
+        <h2 class="section__title">Notable Projects</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of relevant work so far</p>
                  
         <div class="portfolio">
     <!-- Portfolio item 01 -->
-            <div class="portfolio__item" tabindex=0> <!-- added manual focus as element was only clickable once overlay was on      -->
-                <img src="img/gym-tracker.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Gym Tracker</h3>
-                    <p>My own web app built from scratch, from idea to design and implementation. It helps
-                        track your own personalised workouts.
-                    </p>
-                    <p>React - Typescript - Html - Css - JavaScript</p>
-                    <a href ='https://gym-trackr.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <a href="pages/gym-tracker.html" target="_blank" class="info_link">Learn more!</a>
-                    <a href="https://github.com/dav15jr/Gym-Tracker" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 02 -->          
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/hotel.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Hotel Website</h3>
-                    <p>Hotel website built using Typescript. Learnt about types, interfaces.</p>
-                    <p>React - Typescript - Html - Css - JavaScript</p>
-                    <a href ='https://hotel-escape.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/hotel-escape.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/Hotel-TypeScript" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 03 -->
-            <div class="portfolio__item" tabindex=0 >
-                <img src="img/note-pad.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Note Pad Web App</h3>
-                    <p>App that enables you to write, save, edit and delete notes. The notes are save on database (firebase). Learnt about sending and receiving data from a database.</p>
-                    <p>React - Api/ Database</p>
-                    <a href ='https://note-ledger.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/note-pad.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/Note-Pad" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 04 -->
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/tenzies.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Tenzies Game</h3>
-                    <p>Game built based on Tenzies where the goal is to roll 10 dice til they land on a particular number.</p>
-                    <p>React - Typescript - Html - Css - JavaScript</p>
-                    <a href ='https://tenzies-game-djr.netlify.app' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/tenzies-game.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/Tenzies" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 05 -->
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/airbnb-experiences.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Experiences Website</h3>
-                    <p>An experiences site buit using props in react.</p>
-                    <p>React - Html - Css - JavaScript</p>
-                    <a href ='https://superb-experiences.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/experiences.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/Airbnb-Experience-App" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 06 -->
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/to-do-list.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>To do List Web App </h3>
-                    <p>Gym tracker app created from scratch.</p>
-                    <p>Html - Css - JavaScript</p>
-                    <a href ='https://to-do-list-djr.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/to-do-list.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/To-Do-List--Mobile-App" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 07 -->
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/shopping-list.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>Shopping List Web App</h3>
-                    <p>Gym tracker app created from scratch.</p>
-                    <p>Html - Css - JavaScript</p>
-                    <a href ='https://shopping-list-djr.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/shopping-list.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/Shopping-List--Mobile-App" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 08 -->
-            <div class="portfolio__item" tabindex=0>
-                <img src="img/blackjack.png" alt="" class="portfolio__img">
-                <div class="overlay">
-                    <h3>BlackJack Game</h3>
-                    <p>Gym tracker app created from scratch.</p>
-                    <p>Html - Css - JavaScript</p>
-                    <a href ='https://black-jacked.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-                    <!-- <a href="pages/black-jack.html" target="_blank" class="info_link">Learn more!</a> -->
-                    <a href="https://github.com/dav15jr/BlackJack-game" target="_blank" class="git_link">Github</a>
-                </div>
-            </div>
-    <!-- Portfolio item 09 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/rep counter.png" alt="" class="portfolio__img">
+    <div class="portfolio__item" tabindex=0> <!-- added manual focus as element was only clickable once overlay was on      -->
+        <img src="img/gym-tracker.png" alt="" class="portfolio__img">
         <div class="overlay">
-            <h3>Gym Reps Counter</h3>
-            <p>App to count the amount of reps and keep track of them.</p>
-            <p>Html - Css - JavaScript</p>
-            <a href ='https://gym-repcounter.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-            <!-- <a href="pages/gym-rep-counter.html" target="_blank" class="info_link">Learn more!</a> -->
-            <a href="https://github.com/dav15jr/Counter-App" target="_blank" class="git_link">Github</a>
+            <h3>Gym Tracker</h3>
+            <p>My own web app built from scratch, from idea to design and implementation. It helps
+                track your own personalised workouts.
+            </p>
+            <p>React - Typescript - Html - Css - JavaScript</p>
+            <a href ='https://gym-trackr.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
+            <a href="pages/gym-tracker.html" target="_blank" class="info_link">Learn more!</a>
+            <a href="https://github.com/dav15jr/Gym-Tracker" target="_blank" class="git_link">Github</a>
         </div>
     </div>
-    <!-- Portfolio item 10 -->
+    <!-- Portfolio item 02 -->
+    <div class="portfolio__item" tabindex=0 >
+        <img src="img/note-pad.png" alt="" class="portfolio__img">
+        <div class="overlay">
+            <h3>Note Pad Web App</h3>
+            <p>App that enables you to write, save, edit and delete notes. The notes are save on database (firebase). Learnt about sending and receiving data from a database.</p>
+            <p>React - Api/ Database</p>
+            <a href ='https://note-ledger.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
+            <!-- <a href="pages/note-pad.html" target="_blank" class="info_link">Learn more!</a> -->
+            <a href="https://github.com/dav15jr/Note-Pad" target="_blank" class="git_link">Github</a>
+        </div>
+    </div>
+    <!-- Portfolio item 03 -->
     <div class="portfolio__item" tabindex=0>
         <img src="img/wheel-of-life chart.png" alt="" class="portfolio__img">
         <div class="overlay">
             <h3>Wheel of Life</h3>
             <p>Self-Improvement tool based on wheel of life.</p>
             <p>Designed & Collaborated</p>
-            <a href ='https://tools.tryumphcoaching.com/wheel-of-life' target="_blank" class="web_link" >Try it out!</a>   
+            <a href ='https://tools.tryumphcoaching.com/wheel-of-life' target="_blank" class="web_link" >Check it out!</a>   
         </div>
     </div>
-    <!-- Portfolio item 11 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/TryumphWeb.png" alt="" class="portfolio__img">
-        <div class="overlay">
-            <h3>Tryumph Coaching Website</h3>
-            <p>Wordpress Website built and maintained.</p>
-            <p>Wordpress - Cloudflare</p>
-            <a href ='https://tryumphcoaching.com' target="_blank" class="web_link" >Try it out!</a>
-        </div>
-    </div>
-    <!-- Portfolio item 12 -->
+    <!-- Portfolio item 04 -->
     <div class="portfolio__item" tabindex=0>
         <img src="img/coding-night.jpg" alt="" class="portfolio__img">
         <div class="overlay">
@@ -252,30 +172,17 @@
         </div>
     </div>
 </div>  <!--Portfolio projects items container -->
-    </section>
-                    
+    </section>         
     <!-- Footer -->
         <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:hello@davis.dev" class="footer__link">hello@davis.dev</a>
             <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io">
-                    <i class="fab fa-codepen"></i>
+                <a class="social-list__link" href="mailto:dnwanderajr@outlook.com">
+                    <i class="fa fa-envelope"></i>
                 </a>
             </li>
             <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
+                <a class="social-list__link" href="https://github.com/dav15jr">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
