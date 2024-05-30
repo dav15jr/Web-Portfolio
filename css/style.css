@@ -568,7 +568,7 @@ header {
 .zoom_img:hover {
     align-self: center;
     transition: .7s ease;
-    transform: scale(1.5);
+    transform: scale(2);
     border:1px solid;
     border-color: #cb05f3;
     opacity: .9;
