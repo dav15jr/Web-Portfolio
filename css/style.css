@@ -11,7 +11,6 @@
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
-    --fw-bold-sm: 600;
     --fw-bold: 900;
     
     --clr-light: #fff;
@@ -53,7 +52,7 @@ body {
 }
 
 section {
-    padding: 2em 2em;
+    padding: 3em 3em;
 }
 
 img {
@@ -109,7 +108,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
-    font-weight: var(--fw-bold-sm);
+    font-weight: var(--fw-bold);
 }
 
 .section__title--intro {
@@ -218,7 +217,8 @@ color: #8907ca;
     background-blend-mode:multiply;
     color: var(--clr-light);
     text-align: center;
-    min-width:450px;
+    /* padding: 0; */
+    min-width:400px;
 }
 .section__title--services {
     color: var(--clr-accent);
@@ -235,43 +235,27 @@ color: #8907ca;
 }
 
 .services {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: inherit;
-    margin-bottom: 3em;
-}
- 
-.service {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    width: 400px;
-    min-width: 250px;
     margin: 0 auto;
+    margin-bottom: 3em;
+    max-width: 1400px;
+} 
+.service {
+    max-width: 500px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 1em;
 }
 .service h3{
     margin-bottom: 0.5rem;
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.05em;
 }
 .service-list{
     display: flex;
     justify-content: space-between;
-    margin: 0;
 }
 
-
-@media (min-width: 900px) {
-    .services {
-        display: flex;
-        flex-direction: row;
-        max-width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        /* border: solid 3px red; */
-    }  
-    .service + .service {
-        margin-left: 2em;
-    }
-}
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -448,7 +432,7 @@ color: #8907ca;
 .zoom_img:hover {
     align-self: center;
     transition: .7s ease;
-    transform: scale(1.8);
+    transform: scale(1.5);
     border:1px solid;
     border-color: #cb05f3;
     opacity: .9;
