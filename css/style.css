@@ -26,12 +26,12 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
-        --fs-body: 1.25rem;
+        --fs-body: 1.2rem;
     }
 }
 
@@ -91,6 +91,8 @@ strong { font-weight: var(--fw-bold) }
 
 .btn:hover {
     transform: scale(1.1);
+    background: var(--clr-light);
+    color: var(--clr-accent);
 }
 /* Typography */
 
@@ -217,7 +219,6 @@ color: #8907ca;
     background-blend-mode:multiply;
     color: var(--clr-light);
     text-align: center;
-    /* padding: 0; */
     min-width:400px;
 }
 .section__title--services {
