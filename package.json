@@ -1,6 +1,8 @@
 {
   "name": "project",
-  "dependencies": {},
+  "dependencies": {
+    "project": "file:"
+  },
   "devDependencies": {
     "vite": "latest"
   },
