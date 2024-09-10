@@ -308,7 +308,6 @@ color: var(--clr-accent);
 }
 .portfolio {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .portfolio__item {
@@ -356,6 +355,9 @@ color: var(--clr-accent);
     color: #ffffff;
     background-color: var(--clr-accent);
 }
+.overlay h3{
+    margin-bottom: 1rem;
+}
 
 .overlay:focus {
     position: relative;
@@ -388,7 +390,13 @@ color: var(--clr-accent);
 .portfolio-item-individual a {
     align-self: center;
 }
-
+.icon-list{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    font-size: 2rem;
+    width:75%;
+}
 
 /*------------------ footer---------------------- */
 .footer {
