@@ -3,58 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Davis Jr - Wheel of Life Tool</title>
+        <title>Davis Jr | Wheel of Life Tool</title>
+        <link rel="icon" type="image/png" href="/public/icon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!-- To Update fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="/img/davisJr-logo-01.png" alt="" />
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                    <span class="hamburger"></span>
-            </button>
-            <nav class="open_nav">
-                <ul class="nav__openlist">
-                    <li class="nav__item"><a href="/index.html" class="open__link">Home</a></li>
-                    <li class="nav__item"><a href="/index.html#about" class="open__link">About me</a></li>
-                    <li class="nav__item"><a href="/index.html#services" class="open__link">What I do</a></li>
-                    <li class="nav__item"><a href="/index.html#work" class="open__link">My Work</a></li>
-                </ul>
-            </nav>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="/index.html"  class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="/index.html#about"  class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="/index.html#services"  class="nav__link">What I do</a></li>
-                    <li class="nav__item"><a href="/index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <div class=" container-fluid container">
+                  <a class="navbar-brand" href="/index.html#home">
+                    <img src="/img/davisJr-logo-01.png" alt="Logo" width="160" height="25" class=" align-text-bottom"/>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end px-md-5" id="navbarScroll">
+                    <ul class="navbar-nav align-items-center">
+                      <li class="nav-item"><a href="/index.html#home" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="/index.html#about" class="nav-link">About Me</a></li>
+                      <li class="nav-item"><a href="/index.html#services" class="nav-link">What I do</a></li>
+                      <li class="nav-item"><a href="/index.html#work" class="nav-link">Projects</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                Wheel Of Life<strong>Web Tool</strong>
+                Wheel Of Life<strong>Web App</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">1st independant project</p>
+            <p class="section__subtitle section__subtitle--intro">Self-Improvement App</p>
             <img src="/img/wheel-of-life chart.png" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
-            <p>This is my first independent project built from scratch, from idea to design and implementation. I wanted to create something related to one on my passions. Hence why I decided on a gym tracker. Its purpose is to help keep track of your workouts.</p>   
-            <p>You begin by creating your workout personalised plan using different exercises. And then begin your workout and track your progress. Your workouts can be saved in local storage and loaded for your next workout session. </p>
-            <img src="/img/WOL Excel.png" alt="" class="zoom_img">
-            <p>I began by writing what I wanted the app to accomplish and how it should work. I then moved on to drawing what the app should look like from a UI perspective. This was a brief plan and design with a lot of changes and updates implemented and more still to be possibly added in the future.</p>
-            <img src="/img/Wheel of Life Full.jpg" alt="" class="zoom_img">
-            <p>I then moved on to drawing what the app should look like from a UI perspective. This was a brief plan and design with a lot of changes and updates implemented and more still to be possibly added in the future.</p>
-            <p>As this was my first independent project I started with the basics (Html, Css and JS). I then later on started implementing React & TypeScript into the project to improve and enhance its functionality.</p>
-            <p> Using a lot of what I had learnt in my previous tutorial projects and some new concepts that I had to learn along the way. The current version works well but has space for improvement and additional features. </p>
+            <p>This started out as a self-improvement tool I built while at Tryumph Coaching for my clients to help them evaluate their life and set goals to improve the parts they were not happy about.</p>
+            <img src="/img/WOL Excel.png" alt="" class="zoom_img" title="Excel Wheel of Life">
+            <p>It was initially built using excel before it was improved it and decided to developed a web version, with the help of a friend, to make it easier to access and use for users.</p>   
+            <img src="/img/Wheel of Life Full.jpg" alt="" class="zoom_img" title="Web App Wheel of Life">
+            <p>I plan to add authentication to the app so users can save their data, making it easier to track their progress.</p>
             <a href ='https://tools.tryumphcoaching.com/wheel-of-life' target="_blank" class="btn">Try it Out!</a>
         </div>
         <!-- Footer -->
@@ -71,8 +65,6 @@
                     </a>
                 </li>
             </ul>
-        </footer>
-        <script src="./js/index.js"></script>
-        
+        </footer>      
     </body>
 </html>
