@@ -1,230 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Davis Jr | Web Portfolio</title>
-        <link rel="icon" type="image/png" href="/public/icon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davis Jr | Web Portfolio</title>
+    <link rel="icon" type="image/png" href="/public/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
-        <!-- To Update fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-<!------------MAIN PAGE------------->
-    <body>
+    <!-- To Update fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class=" container-fluid container">
-                  <a class="navbar-brand" href="#home">
-                    <img src="img/davisJr-logo-01.png" alt="Logo" width="160" height="25" class=" align-text-bottom"/>
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end px-md-5" id="navbarScroll">
-                    <ul class="navbar-nav align-items-center">
-                      <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                      <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
-                      <li class="nav-item"><a href="#services" class="nav-link">What I do</a></li>
-                      <li class="nav-item"><a href="#work" class="nav-link">Projects</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-<!-------------Introduction----------->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Davis Jr</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
-            <img src="img/davis-01.jpg" alt="a picture of Davis Junior smiling" class="intro__img">
-        </section>
-            <div class="skill-icons">
-                <i class="devicon-react-original colored" title="React"></i>
-                <i class="devicon-nextjs-plain colored" title="Next Js"></i>
-                <i class="devicon-javascript-plain colored" title="JavaScript"></i>
-                <i class="devicon-typescript-plain colored" title="TypeScript"></i>
-                <i class="devicon-html5-plain-wordmark colored" title="HTML 5"></i>
-                <i class="devicon-css3-plain-wordmark colored" title="CSS 3"></i>
-                <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>         
-                <i class="devicon-sass-original colored" title="Sass"></i>
-                <i class="devicon-tailwindcss-original colored" title="Tailwind"></i>
-                <i class="devicon-firebase-plain colored" title="Firebase"></i>
-                <!-- <i class="devicon-github-original-wordmark colored"></i>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!------------MAIN PAGE------------->
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#home">
+            <img
+              src="img/davisJr-logo-01.png"
+              alt="Logo"
+              width="160"
+              height="25"
+              class="align-text-bottom"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end px-md-5"
+            id="navbarScroll"
+          >
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">What I do</a>
+              </li>
+              <li class="nav-item">
+                <a href="#work" class="nav-link">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-------------Introduction----------->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Davis Jr</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
+      <img
+        src="img/davis-01.jpg"
+        alt="a picture of Davis Junior smiling"
+        class="intro__img"
+      />
+    </section>
+    <div class="skill-icons">
+      <i class="devicon-react-original colored" title="React"></i>
+      <i class="devicon-nextjs-plain colored" title="Next Js"></i>
+      <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+      <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+      <i class="devicon-html5-plain-wordmark colored" title="HTML 5"></i>
+      <i class="devicon-css3-plain-wordmark colored" title="CSS 3"></i>
+      <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+      <i class="devicon-sass-original colored" title="Sass"></i>
+      <i class="devicon-tailwindcss-original colored" title="Tailwind"></i>
+      <i class="devicon-firebase-plain colored" title="Firebase"></i>
+      <!-- <i class="devicon-github-original-wordmark colored"></i>
                 <i class="devicon-vscode-plain colored"></i>
                 <i class="devicon-netlify-plain colored"></i> -->
-            </div>
-<!---------------- About me ---------------->
-        <section class="about-me mt-5" id="about">
-            <h2 class="section__title section__title--about">About Me</h2>
-            <p class="section__subtitle section__subtitle--about"> Not just another Jr developer</p>
-            <div class="about-me__body">
-                <p>Hi I am Davis, a versatile engineer keen to begin my career as a front-end developer. I am passionate about building useful tools and solving challenging problems. My goal is to eventually be a full stack developer, as one off my most fulfilling projects was when I designed, built and programmed an autonomous robot at university.</p>
-                <p>From a young age, I have been captivated by the world of technology and how things work. This fascination led me to build a Remote Control car from scraps from my old toys at the young age of 10 years old. Motivating me to pursue a Master's degree in Electrical and Electronic Engineering.</p>
-                <p>I posses a wide range of skills from problem solving, critical thinking, excellent communication and team-working skills. With a growth mindset and enthusiasm for learning, enabling me to adapt quickly and be a valuable asset in any organization.
-                </p>
-            </div>
-            <img src="img/davis-02.jpg" alt="Davis posing" class="about-me__img">
-        </section>
-<!------------Experience---------------->
-        <section class="my-services px-0 px-md-4" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services row">
-                <div class="service col-8 col-xl-4">
-                    <h3>Education</h3>
-                    <ul>
-                        <li>Master's in Electrical and Electronic Engineering</li>
-                        <li>Created an autonomous robot run using C++. </li>
-                        <li>Courses and projects using Python and C++.</li>
-                        <li>Self Studying Python to create AI bots.</li>
-                    </ul>
-                </div> 
-                <div class="service col-8 col-xl-4">
-                    <h3>Experience</h3>
-                    <ul>
-                        <li>Developed over 10 websites and web applications.</li>
-                        <li>Developed online wheel of life web tool from Excel.</li>
-                        <li>Used Prompt Engineering to create AI assistants.</li>
-                        <li>Setup and maintained WordPress website. </li>
-                    </ul>
-                </div>
-                <div class="service col-8 col-xl-4">
-                    <h3>Technical Skills</h3>
-                    <div class="service-list">
-                        <ul>
-                            <li>React</li>
-                            <li>TypeScript</li>
-                            <li>JavaScript</li>
-                            <li>NextJS</li>
-                        </ul>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>SCSS/Sass</li>
-                            <li>TailWind</li>
-                        </ul>
-                        <ul>
-                            <li>Bootstrap</li>
-                            <li>Firebase</li>
-                            <li>Netlify</li>
-                        </ul>
-                    </div>
-                </div> <!-- / service -->
-            </div> <!-- / services -->  
-            <a href="https://1drv.ms/b/c/833475fc88c96610/Ef2edDYCfzxJlbLR2Fk0CBYBfMzxgJL4trLl4RUg94Tt1g?e=jRk5xL" class="btn" target="_blank">Check Out CV</a>
-        </section>
-        
-<!---------------------- My Work --------------------------->
-    <section class="my-work" id="work">
-        <h2 class="section__title">Notable Projects</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of relevant work so far</p>             
-    <div class="portfolio">
-    <!-- Portfolio item 01 -->
-    <div class="portfolio__item" tabindex=0> <!-- added manual focus as element was only clickable once overlay was on      -->
-        <img src="img/primeyou-login.png" alt="" class="portfolio__img">
-        <div class="overlay">
-            <h3>Workout Tracker</h3>
-            <p>My first independant web app built from scratch, from idea, design and implementation (CRUD App).
-            </p>
-            <p>React - Typescript - JavaScript - Bootstrap - Firebase - RESTful API- Sass - Html - Css</p>
-            <a href="/pages/gym-tracker.html" target="_blank" class="info_link">Learn More!</a>
-            <a href ='https://primeyou.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-            <a href="https://github.com/dav15jr/Gym-Tracker" target="_blank" class="git_link">Github</a>
-        </div>
     </div>
-    <!-- Portfolio item 02 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/motiv8r.png" alt="" class="portfolio__img">
-        <div class="overlay">
+    <!---------------- About me ---------------->
+    <section class="about-me mt-5" id="about">
+      <h2 class="section__title section__title--about">About Me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Not just another Jr developer
+      </p>
+      <div class="about-me__body">
+        <p>
+          Hi I am Davis, a versatile engineer keen to begin my career as a
+          front-end developer. I am passionate about building useful tools and
+          solving challenging problems. My goal is to eventually be a full stack
+          developer, as one off my most fulfilling projects was when I designed,
+          built and programmed an autonomous robot at university.
+        </p>
+        <p>
+          From a young age, I have been captivated by the world of technology
+          and how things work. This fascination led me to build a Remote Control
+          car from scraps from my old toys at the young age of 10 years old.
+          Motivating me to pursue a Master's degree in Electrical and Electronic
+          Engineering.
+        </p>
+        <p>
+          I posses a wide range of skills from problem solving, critical
+          thinking, excellent communication and team-working skills. With a
+          growth mindset and enthusiasm for learning, enabling me to adapt
+          quickly and be a valuable asset in any organization.
+        </p>
+      </div>
+      <img src="img/davis-02.jpg" alt="Davis posing" class="about-me__img" />
+    </section>
+    <!------------Experience---------------->
+    <section class="my-services px-0 px-md-4" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services row">
+        <div class="service col-8 col-xl-4">
+          <h3>Education</h3>
+          <ul>
+            <li>Master's in Electrical and Electronic Engineering</li>
+            <li>Created an autonomous robot run using C++.</li>
+            <li>Courses and projects using Python and C++.</li>
+            <li>Self Studying Python to create AI bots.</li>
+          </ul>
+        </div>
+        <div class="service col-8 col-xl-4">
+          <h3>Experience</h3>
+          <ul>
+            <li>Developed over 10 websites and web applications.</li>
+            <li>Developed online wheel of life web tool from Excel.</li>
+            <li>Used Prompt Engineering to create AI assistants.</li>
+            <li>Setup and maintained WordPress website.</li>
+          </ul>
+        </div>
+        <div class="service col-8 col-xl-4">
+          <h3>Technical Skills</h3>
+          <div class="service-list">
+            <ul>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>NextJS</li>
+            </ul>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SCSS/Sass</li>
+              <li>TailWind</li>
+            </ul>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Firebase</li>
+              <li>Netlify</li>
+            </ul>
+          </div>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+      <a
+        href="https://1drv.ms/b/c/833475fc88c96610/Ef2edDYCfzxJlbLR2Fk0CBYBfMzxgJL4trLl4RUg94Tt1g?e=jRk5xL"
+        class="btn"
+        target="_blank"
+        >Check Out CV</a
+      >
+    </section>
+
+    <!---------------------- My Work --------------------------->
+    <section class="my-work" id="work">
+      <h2 class="section__title">Notable Projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of relevant work so far
+      </p>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="portfolio__item" tabindex="0">
+          <!-- added manual focus as element was only clickable once overlay was on      -->
+          <img src="img/primeyou-login.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <h3>Workout Tracker</h3>
+            <p>
+              My first independant web app built from scratch, from idea, design
+              and implementation (CRUD App).
+            </p>
+            <p>
+              React - Typescript - JavaScript - Bootstrap - Firebase - RESTful
+              API- Sass - Html - Css
+            </p>
+            <a href="/pages/gym-tracker.html" target="_blank" class="info_link"
+              >Learn More!</a
+            >
+            <a
+              href="https://primeyou.netlify.app/"
+              target="_blank"
+              class="web_link"
+              >Try it out!</a
+            >
+            <a
+              href="https://github.com/dav15jr/Gym-Tracker"
+              target="_blank"
+              class="git_link"
+              >Github</a
+            >
+          </div>
+        </div>
+        <!-- Portfolio item 02 -->
+        <div class="portfolio__item" tabindex="0">
+          <img src="img/motiv8r.png" alt="" class="portfolio__img" />
+          <div class="overlay">
             <h3>Motivation Tracker App</h3>
             <p>Web App that helps you track your level of Motivation daily.</p>
             <p>NextJs - Tailwind - Firebase</p>
-            <a href ='https://motiv8r.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-            <a href="https://github.com/dav15jr/Motivator-NextJs" target="_blank" class="git_link">Github</a>
+            <a
+              href="https://motiv8r.netlify.app/"
+              target="_blank"
+              class="web_link"
+              >Try it out!</a
+            >
+            <a
+              href="https://github.com/dav15jr/Motivator-NextJs"
+              target="_blank"
+              class="git_link"
+              >Github</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Portfolio item 03 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/virtucode.png" alt="" class="portfolio__img">
-        <div class="overlay">
+        <!-- Portfolio item 03 -->
+        <div class="portfolio__item" tabindex="0">
+          <img src="img/virtucode.png" alt="" class="portfolio__img" />
+          <div class="overlay">
             <h3>VR Website</h3>
             <p>Fictional VR App development company website.</p>
             <p>NextJs - Tailwind</p>
-            <a href ='https://virtucode.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-            <a href="https://github.com/dav15jr/VirtuCode-nextjs" target="_blank" class="git_link">Github</a>
+            <a
+              href="https://virtucode.netlify.app/"
+              target="_blank"
+              class="web_link"
+              >Try it out!</a
+            >
+            <a
+              href="https://github.com/dav15jr/VirtuCode-nextjs"
+              target="_blank"
+              class="git_link"
+              >Github</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Portfolio item 04 -->
-    <div class="portfolio__item" tabindex=0 >
-        <img src="img/blog-app.png" alt="" class="portfolio__img">
-        <div class="overlay">
+        <!-- Portfolio item 04 -->
+        <div class="portfolio__item" tabindex="0">
+          <img src="img/blog-app.png" alt="" class="portfolio__img" />
+          <div class="overlay">
             <h3>Blog Post Website</h3>
-            <p>Create, save, delete posts. Brief practice using postSql DB. </p>
-            <p>NextJs - Kinde(Auth) - Prisma - Vercel </p>
-            <a href ='https://blog-djr.vercel.app/' target="_blank" class="web_link" >Try it out!</a>
-            <a href="https://github.com/dav15jr/post-app" target="_blank" class="git_link">Github</a>
+            <p>Create, save, delete posts. Brief practice using postSql DB.</p>
+            <p>NextJs - Kinde(Auth) - Prisma - Vercel</p>
+            <a
+              href="https://blog-djr.vercel.app/"
+              target="_blank"
+              class="web_link"
+              >Try it out!</a
+            >
+            <a
+              href="https://github.com/dav15jr/post-app"
+              target="_blank"
+              class="git_link"
+              >Github</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Portfolio item 05 -->
-    <div class="portfolio__item" tabindex=0 >
-        <img src="img/note-pad.png" alt="" class="portfolio__img">
-        <div class="overlay">
+        <!-- Portfolio item 05 -->
+        <div class="portfolio__item" tabindex="0">
+          <img src="img/note-pad.png" alt="" class="portfolio__img" />
+          <div class="overlay">
             <h3>Note Pad Web App</h3>
-            <p>Note app enabling you to create, save, edit and delete notes. (CRUD App)</p>
+            <p>
+              Note app enabling you to create, save, edit and delete notes.
+              (CRUD App)
+            </p>
             <p>React - firebase</p>
-            <a href ='https://note-ledger.netlify.app/' target="_blank" class="web_link" >Try it out!</a>
-            <a href="https://github.com/dav15jr/Note-Pad" target="_blank" class="git_link">Github</a>
+            <a
+              href="https://note-ledger.netlify.app/"
+              target="_blank"
+              class="web_link"
+              >Try it out!</a
+            >
+            <a
+              href="https://github.com/dav15jr/Note-Pad"
+              target="_blank"
+              class="git_link"
+              >Github</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Portfolio item 06 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/wheel-of-life chart.png" alt="" class="portfolio__img">
-        <div class="overlay">
+        <!-- Portfolio item 06 -->
+        <div class="portfolio__item" tabindex="0">
+          <img
+            src="img/wheel-of-life chart.png"
+            alt=""
+            class="portfolio__img"
+          />
+          <div class="overlay">
             <h3>Wheel of Life</h3>
             <p>Self-Improvement tool based on wheel of life.</p>
             <p>Collaborated</p>
-            <a href="/pages/wheel-of-life.html" target="_blank" class="info_link">Learn more!</a>  
-            <a href ='https://tools.tryumphcoaching.com/wheel-of-life' target="_blank" class="web_link" >Check it out!</a> 
+            <a
+              href="/pages/wheel-of-life.html"
+              target="_blank"
+              class="info_link"
+              >Learn more!</a
+            >
+            <a
+              href="https://tools.tryumphcoaching.com/wheel-of-life"
+              target="_blank"
+              class="web_link"
+              >Check it out!</a
+            >
+          </div>
         </div>
-    </div>
-    <!-- Portfolio item 07 -->
-    <div class="portfolio__item" tabindex=0>
-        <img src="img/coding-night.jpg" alt="" class="portfolio__img">
-        <div class="overlay">
+        <!-- Portfolio item 07 -->
+        <div class="portfolio__item" tabindex="0">
+          <img src="img/coding-night.jpg" alt="" class="portfolio__img" />
+          <div class="overlay">
             <h3>Coming Soon!</h3>
             <p>...Crypto App using NextJs, TypeScript, Tailwind.</p>
             <div class="icon-list">
-                <i class="devicon-nextjs-plain" title="Next Js"></i>
-                <i class="devicon-typescript-plain colored" title="TypeScript"></i>
-                <i class="devicon-tailwindcss-original colored" title="Tailwind"></i>
-                <!-- <i class="devicon-firebase-plain colored" title="Firebase"></i> -->
+              <i class="devicon-nextjs-plain" title="Next Js"></i>
+              <i
+                class="devicon-typescript-plain colored"
+                title="TypeScript"
+              ></i>
+              <i
+                class="devicon-tailwindcss-original colored"
+                title="Tailwind"
+              ></i>
+              <!-- <i class="devicon-firebase-plain colored" title="Firebase"></i> -->
             </div>
+          </div>
         </div>
-    </div>
-</div>  <!--Portfolio projects items container -->
-    </section>         
+      </div>
+      <!--Portfolio projects items container -->
+    </section>
     <!-- Footer -->
-        <footer class="footer">
-            <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="mailto:dnwanderajr@outlook.com" target="_blank">
-                    <i class="fa fa-envelope"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/dav15jr" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
-        </footer>  
-    </body>
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="mailto:dnwanderajr@outlook.com"
+            target="_blank"
+          >
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/dav15jr"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
