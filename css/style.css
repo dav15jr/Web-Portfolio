@@ -166,6 +166,8 @@ header {
 
 .intro__img {
   box-shadow: var(--bs);
+  width:80%;
+  margin:auto;
 }
 
 .section__subtitle--intro {
