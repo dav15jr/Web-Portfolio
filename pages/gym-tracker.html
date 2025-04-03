@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davis Jr | Workout Tracker App</title>
     <link rel="icon" type="image/png" href="/public/icon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -21,17 +22,16 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- To Update fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <!-- To Update fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
@@ -87,9 +87,10 @@
       <p class="section__subtitle section__subtitle--intro">
         1st independant project
       </p>
-      <img src="/img/primeyou-small.png" alt="" class="intro__img" />
+      <img src="/img/primeyou-small.png" alt="image of primeyou app"  fetchpriority="high"
+      loading="eager" class="intro__img" />
     </section>
-
+    
     <div class="portfolio-item-individual">
       <p>
         This is my first independent project built from scratch, from idea to
@@ -97,13 +98,13 @@
         wanted to build something I am passionate about, fitness. Its purpose is
         to simplify keeping track of your workouts.
       </p>
-      <img src="/img/gym plan 01.jpeg" alt="picture of plan for gym app" />
+      <img src="/img/gym plan 01.jpeg" alt="picture of plan for gym app" loading="lazy"/>
       <p>
         I began by planning what the app should do and how it should work. I
         then drew what the design and layout of app should be. This was a brief
         plan and design with a lot of changes and updates implemented.
       </p>
-      <img src="/img/gym plan 02.jpeg" alt="drawing of gym app plan" />
+      <img src="/img/gym plan 02.jpeg" alt="drawing of gym app plan" loading="lazy" />
       <p>
         I started building this project with the basics (Html, Css and JS). Then
         later started implementing React & TypeScript into the project to
@@ -111,7 +112,7 @@
         using Firebase for my database and authentication. Helping me improve on
         my CRUD and RESTful Api building skills.
       </p>
-      <img src="/img/primeyou-small.png" alt="screenshot of gym app" />
+      <img src="/img/primeyou-small.png" alt="screenshot of gym app" loading="lazy"/>
       <p>
         Along the way I learnt some new libraries like ReCharts, Bootstrap, Sass
         to improved the app and enhance simplicity while increasing my skillset.

@@ -95,6 +95,8 @@
       <img
         src="img/davis-01.jpg"
         alt="picture of Davis Junior smiling"
+        fetchpriority="high"
+        loading="eager"
         class="intro__img"
       />
     </section>
@@ -114,7 +116,7 @@
       <i class="devicon-vitest-plain colored" title="Vitest"></i>
       <i class="devicon-nodejs-plain colored" title="NodeJS"></i>
       <i class="devicon-graphql-plain colored" title="GraphQL"></i>
-          
+
       <!-- <i class="devicon-jest-plain colored" title="Jest"></i>
       <i class="devicon-github-original-wordmark colored"></i>
       <i class="devicon-vscode-plain colored"></i>
@@ -150,7 +152,12 @@
           and be a valuable team member in any business.
         </p>
       </div>
-      <img src="img/davis-02.jpg" alt="Davis posing" class="about-me__img" />
+      <img
+        src="img/davis-02.jpg"
+        alt="Davis in formal wear"
+        loading="lazy"
+        class="about-me__img"
+      />
     </section>
     <!------------Experience---------------->
     <section class="my-services px-0 px-md-4" id="services">
@@ -220,12 +227,19 @@
       <div class="portfolio">
         <!-- Portfolio item 09 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/wol 1.png" alt="" class="portfolio__img" />
+          <img
+            src="img/wol 1.png"
+            alt="self-help tools app screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Upgraded Tryumph Tools Web App</h3>
             <p>
-              Self Improvement Tools page with Wheel of Life & Productivity
-              Planner with Auth & Database.
+              Self Improvement Tools page - Wheel of Life & Productivity Planner
+              with Auth & Database.
             </p>
             <p>V0 AI - Next.JS - ChartJS - Tailwind - Firebase</p>
             <a
@@ -253,7 +267,14 @@
         <!-- Portfolio item 01 -->
         <div class="portfolio__item" tabindex="0">
           <!-- added manual focus as element was only clickable once overlay was on      -->
-          <img src="img/primeyou-login.png" alt="" class="portfolio__img" />
+          <img
+            src="img/primeyou-login.png"
+            alt="prime you app screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Workout Tracker</h3>
             <p>
@@ -289,7 +310,14 @@
         </div>
         <!-- Portfolio item 02 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/crypto-screenshot4.png" alt="" class="portfolio__img" />
+          <img
+            src="img/crypto-screenshot4.png"
+            alt="crypto app screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Crypto Portfolio & Tracker</h3>
             <p>
@@ -297,12 +325,6 @@
               Navbar Inspired by BingX.
             </p>
             <p>NextJs - TypeScript - Tailwind</p>
-            <!-- <a
-                      href=""
-                      target="_blank"
-                      class="info_link"
-                      >Learn more!</a
-                    > -->
             <a
               href="https://crypto-knight-djr.netlify.app/"
               target="_blank"
@@ -321,7 +343,14 @@
         </div>
         <!-- Portfolio item 03 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/game-wish.png" alt="" class="portfolio__img" />
+          <img
+            src="img/game-wish.png"
+            alt="game wishlist screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Game Wish List App</h3>
             <p>Create your gaming wish list.</p>
@@ -344,7 +373,14 @@
         </div>
         <!-- Portfolio item 03 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/mern.png" alt="" class="portfolio__img" />
+          <img
+            src="img/mern.png"
+            alt="MERN project screenshot"
+            loading="lazy"
+            width="800"
+            height="600"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Product Store</h3>
             <p>Simple MERN Stack Project.</p>
@@ -367,7 +403,14 @@
         </div>
         <!-- Portfolio item 04 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/virtucode.png" alt="" class="portfolio__img" />
+          <img
+            src="img/virtucode.png"
+            alt="Virtue Code website screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>VR Website</h3>
             <p>Fictional VR App development company website.</p>
@@ -388,32 +431,46 @@
             >
           </div>
         </div>
-      <!-- Portfolio item 03 -->
-                <div class="portfolio__item" tabindex="0">
-                  <img src="img/motiv8r.png" alt="" class="portfolio__img" />
-                  <div class="overlay">
-                    <h3>Motivation Tracker App</h3>
-                    <p>Web App that helps you track your level of Motivation daily.</p>
-                    <p>NextJs - Tailwind - Firebase</p>
-                    <a
-                      href="https://motiv8r.netlify.app/"
-                      target="_blank"
-                      class="web_link"
-                      arial-label="Try it"
-                      >Try it!</a
-                    >
-                    <a
-                      href="https://github.com/dav15jr/Motivator-NextJs"
-                      target="_blank"
-                      class="git_link"
-                      arial-label="Github"
-                      >Github</a
-                    >
-                  </div>
-                </div>
+        <!-- Portfolio item 03 -->
+        <div class="portfolio__item" tabindex="0">
+          <img
+            src="img/motiv8r.png"
+            alt="Motivator App Screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
+          <div class="overlay">
+            <h3>Motivation Tracker App</h3>
+            <p>Web App that helps you track your level of Motivation daily.</p>
+            <p>NextJs - Tailwind - Firebase</p>
+            <a
+              href="https://motiv8r.netlify.app/"
+              target="_blank"
+              class="web_link"
+              arial-label="Try it"
+              >Try it!</a
+            >
+            <a
+              href="https://github.com/dav15jr/Motivator-NextJs"
+              target="_blank"
+              class="git_link"
+              arial-label="Github"
+              >Github</a
+            >
+          </div>
+        </div>
         <!-- Portfolio item 05 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/blog-app.png" alt="" class="portfolio__img" />
+          <img
+            src="img/blog-app.png"
+            alt="Blog App Screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Blog Post Website</h3>
             <p>Create, save, delete posts. Brief practice using postSql DB.</p>
@@ -436,7 +493,14 @@
         </div>
         <!-- Portfolio item 06 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/note-pad.png" alt="" class="portfolio__img" />
+          <img
+            src="img/note-pad.png"
+            alt="Note Pad App Screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Note Pad Web App</h3>
             <p>
@@ -464,7 +528,10 @@
         <div class="portfolio__item" tabindex="0">
           <img
             src="img/wheel-of-life chart.png"
-            alt=""
+            alt="Wheel of Life Chart Screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
             class="portfolio__img"
           />
           <div class="overlay">
@@ -489,7 +556,14 @@
         </div>
         <!-- Portfolio item 08 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/TryumphWeb.png" alt="" class="portfolio__img" />
+          <img
+            src="img/TryumphWeb.png"
+            alt="Tryumph Coaching Website Screenshot"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Tryumph Coaching Website</h3>
             <p>Coaching Website built in Wordpress.</p>
@@ -511,7 +585,14 @@
         </div>
         <!-- Portfolio item 10 -->
         <div class="portfolio__item" tabindex="0">
-          <img src="img/coding-night.jpg" alt="" class="portfolio__img" />
+          <img
+            src="img/coding-night.jpg"
+            alt="Image of person coding in the dark"
+            width="800"
+            height="600"
+            loading="lazy"
+            class="portfolio__img"
+          />
           <div class="overlay">
             <h3>Coming Soon!</h3>
             <p>Next.JS 15 + React 19 + TypeScript + Tailwind</p>
