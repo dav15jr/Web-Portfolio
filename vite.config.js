@@ -7,6 +7,7 @@ export default defineConfig({
 			input: {
 				main: resolve(__dirname, 'index.html'),
 				gymTracker: resolve(__dirname, 'pages/gym-tracker.html'),
+				wheelOfLife: resolve(__dirname, 'pages/wheel-of-life.html'),
 			},
 		},
 	},
